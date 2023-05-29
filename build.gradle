@@ -26,6 +26,9 @@ dependencies {
 application {
     mainClass.set("com.example.Application")
 }
+dockerBuildNative {
+    images = ["micronaut-flyway-migration"]
+}
 
 graalvmNative {
     binaries {
