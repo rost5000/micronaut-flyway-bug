@@ -1,0 +1,9 @@
+{
+  "resources": {
+    "includes" :[
+      {
+        "pattern":"\\Qdb/migration/h2/V1__init.sql\\E"
+      }
+    ]
+  }
+}

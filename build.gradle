@@ -34,6 +34,7 @@ graalvmNative {
     binaries {
         main {
             imageName = "micronaut-flyway-migration"
+            buildArgs.add "-Dflyway.locations='classpath:db/migration/h2'"
         }
     }
 }
